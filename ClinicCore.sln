@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicCore", "ClinicCore\ClinicCore.csproj", "{BACCDFDD-2F00-4B5D-8F5A-8470E3E25FD9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ClinicDatabase", "ClinicDatabase\ClinicDatabase.sqlproj", "{4107D58E-DA6F-45B7-8102-6225B0740524}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Clinic2", "..\..\..\..\Desktop\Clinic2\", "{F77D30BD-8648-4F47-B962-AC39B5E0EF5C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58308"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Clinic2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58308\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58308"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Clinic2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58308\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58308"
+		SlnRelativePath = "..\..\..\..\Desktop\Clinic2\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACCDFDD-2F00-4B5D-8F5A-8470E3E25FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACCDFDD-2F00-4B5D-8F5A-8470E3E25FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACCDFDD-2F00-4B5D-8F5A-8470E3E25FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACCDFDD-2F00-4B5D-8F5A-8470E3E25FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4107D58E-DA6F-45B7-8102-6225B0740524}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F77D30BD-8648-4F47-B962-AC39B5E0EF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77D30BD-8648-4F47-B962-AC39B5E0EF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77D30BD-8648-4F47-B962-AC39B5E0EF5C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77D30BD-8648-4F47-B962-AC39B5E0EF5C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
